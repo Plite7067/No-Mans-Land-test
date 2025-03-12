@@ -80,14 +80,16 @@
               {
                 "condition": "minecraft:match_tool",
                 "predicate": {
-                  "enchantments": [
-                    {
-                      "enchantment": "minecraft:silk_touch",
-                      "levels": {
-                        "min": 1
+                  "predicates": {
+                    "minecraft:enchantments": [
+                      {
+                        "enchantments": "minecraft:silk_touch",
+                        "levels": {
+                          "min": 1
+                        }
                       }
-                    }
-                  ]
+                    ]
+                  }
                 }
               }
             ]
@@ -130,5 +132,5 @@
       "rolls": 1.0
     }
   ],
-  "random_sequence": "minecraft:blocks/maple_leaves"
+  "random_sequence": "nomansland:blocks/maple_leaves"
 }
