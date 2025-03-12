@@ -23,7 +23,7 @@
                       "condition": "minecraft:match_tool",
                       "predicate": {
                         "predicates": {
-                          "minecraft:enchantments": [
+                          "enchantments": [
                             {
                               "enchantments": "minecraft:silk_touch",
                               "levels": {
@@ -53,7 +53,7 @@
                     0.1
                   ],
                   "condition": "minecraft:table_bonus",
-                  "enchantment": "minecraft:fortune"
+                  "enchantments": "minecraft:fortune"
                 }
               ],
               "name": "nomansland:maple_sapling"
@@ -80,16 +80,14 @@
               {
                 "condition": "minecraft:match_tool",
                 "predicate": {
-                  "predicates": {
-                    "minecraft:enchantments": [
-                      {
-                        "enchantments": "minecraft:silk_touch",
-                        "levels": {
-                          "min": 1
-                        }
+                  "enchantments": [
+                    {
+                      "enchantments": "minecraft:silk_touch",
+                      "levels": {
+                        "min": 1
                       }
-                    ]
-                  }
+                    }
+                  ]
                 }
               }
             ]
@@ -109,7 +107,7 @@
                 0.1
               ],
               "condition": "minecraft:table_bonus",
-              "enchantment": "minecraft:fortune"
+              "enchantments": "minecraft:fortune"
             }
           ],
           "functions": [
@@ -132,5 +130,5 @@
       "rolls": 1.0
     }
   ],
-  "random_sequence": "nomansland:blocks/maple_leaves"
+  "random_sequence": "minecraft:blocks/maple_leaves"
 }
