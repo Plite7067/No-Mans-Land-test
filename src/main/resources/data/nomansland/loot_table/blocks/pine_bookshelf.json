@@ -14,7 +14,7 @@
                   "condition": "minecraft:match_tool",
                   "predicate": {
                     "predicates": {
-                      "enchantments": [
+                      "minecraft:enchantments": [
                         {
                           "enchantments": "minecraft:silk_touch",
                           "levels": {

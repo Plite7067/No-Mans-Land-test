@@ -15,7 +15,7 @@
                   "condition": "minecraft:match_tool",
                   "predicate": {
                     "predicates": {
-                      "enchantments": [
+                      "minecraft:enchantments": [
                         {
                           "enchantments": "minecraft:silk_touch",
                           "levels": {
@@ -43,7 +43,7 @@
                         1.0
                       ],
                       "condition": "minecraft:table_bonus",
-                      "enchantments": "minecraft:fortune"
+                      "enchantment": "minecraft:fortune"
                     }
                   ],
                   "name": "minecraft:flint"
